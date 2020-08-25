@@ -11,7 +11,11 @@ Launcher classic of GC in VB
 
 ## Conteúdo
 
-## Notas do código
+Esse projeto contém o launcher-main do Grand Chase, na versão clássica original, reconstrído em VB .NET, utilizando Engenharia Reversa e contents como screenshots da comunidade na época do o game ainda existia.
+
+	*"Esse projeto contém o trunfo de ouro do Grand Chase em sua raiz primitiva, o starter mais bonito, na minha opnião, simples, limpo, sem instruções que geram alocação de memória desnecessária ou registros acumulados com o tempo, ideal para cpus's low-end."*
+
+## Mergulho no código
 
 ## Receita do componente
 
