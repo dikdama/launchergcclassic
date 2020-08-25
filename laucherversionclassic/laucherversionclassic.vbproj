@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCE84E97-229A-43F6-99AA-2F0D17B5C0B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>laucherversionclassic.My.MyApplication</StartupObject>
+    <RootNamespace>laucherversionclassic</RootNamespace>
+    <AssemblyName>GrandChaseChaos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GrandChaseChaos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GrandChaseChaos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Launcher Classic.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="button_entrar.Designer.vb">
+      <DependentUpon>button_entrar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="button_entrar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="button_exit.Designer.vb">
+      <DependentUpon>button_exit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="button_exit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="button_minimize.Designer.vb">
+      <DependentUpon>button_minimize.vb</DependentUpon>
+    </Compile>
+    <Compile Include="button_minimize.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carousel_indicator1.Designer.vb">
+      <DependentUpon>carousel_indicator1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carousel_indicator1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carousel_indicator2.Designer.vb">
+      <DependentUpon>carousel_indicator2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carousel_indicator2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carousel_indicator3.Designer.vb">
+      <DependentUpon>carousel_indicator3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carousel_indicator3.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carousel_indicator4.Designer.vb">
+      <DependentUpon>carousel_indicator4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carousel_indicator4.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carousel_slider.Designer.vb">
+      <DependentUpon>carousel_slider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carousel_slider.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.vb">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="progress_bar_archive.Designer.vb">
+      <DependentUpon>progress_bar_archive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="progress_bar_archive.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="progress_bar_total.Designer.vb">
+      <DependentUpon>progress_bar_total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="progress_bar_total.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="button_entrar.resx">
+      <DependentUpon>button_entrar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="button_exit.resx">
+      <DependentUpon>button_exit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="button_minimize.resx">
+      <DependentUpon>button_minimize.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carousel_indicator1.resx">
+      <DependentUpon>carousel_indicator1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carousel_indicator2.resx">
+      <DependentUpon>carousel_indicator2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carousel_indicator3.resx">
+      <DependentUpon>carousel_indicator3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carousel_indicator4.resx">
+      <DependentUpon>carousel_indicator4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carousel_slider.resx">
+      <DependentUpon>carousel_slider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progress_bar_archive.resx">
+      <DependentUpon>progress_bar_archive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="progress_bar_total.resx">
+      <DependentUpon>progress_bar_total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_onclicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_onfocused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_onclicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_onfocused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar_charged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar_default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar_onclicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar_onfocused.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progressbar_archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progressbar_total.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcherv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Launcher Classic.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
