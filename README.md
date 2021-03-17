@@ -42,18 +42,6 @@ Sem segredos, apenas build-compile e instancie o executável na raiz do game, e 
 
 *Usando o timer do VB, nunca foi tão fácil imitar o efeito do original ou até mesmo da web, possuindo persistência mesmo apos o click nos índices, com uma lógica simples e de fácil modificação nos sliders.*
 
-
-## Notas do contribuidor
-
-Olá sou Vitor '[dikdama](https://github.com/dikdama)' Gabriel,
-Sou programmer community, e faço isso por diversão.
-Desenvolvi esse projeto por amor ao jogo grandchase. 
-Pretendo, assim que tiver tempo, verificar as issues e fixes de tempos em tempos.
-Qualquer dúvida sobre algo do projeto, você pode me falar.
-O projeto é público e de uso livre, mas um agradecimento é sempre bem vindo hahaha.
-As contas r0t1v e dikdama são minhas, sendo a r0t1v é pessoal e a dikdama é pra mim brincar hahahaha. 
-by dikdama GitHub: [r0t1v](https://github.com/r0t1v) - [dikdama](https://github.com/dikdama) - Discord: dikdama#9689
-
 <p align="left">
   	<img alt="EN-US" src="https://i.imgur.com/QqtGoQ4.gif" width="30" height="20" />
 </p>
@@ -90,14 +78,3 @@ No secrets, just build-compile and instantiate the executable at the root of the
 - Carousel-Slider like a boss
 
 *Using the VB timer, it has never been easier to imitate the effect of the original or even the web, having persistence even after clicking on the indexes, with a simple logic and easy modification on the sliders.*
-
-## Contributor notes
-
-Hi, I'm Vitor '[dikdama](https://github.com/dikdama)' Gabriel,
-I'm a programmer community, and I do it for fun.
-I developed this project for the love of the grandchase game.
-As soon as I have time, I intend to check the issues and fixes from time to time.
-Any questions about something in the project, you can tell me.
-The project is public and free to use, but thanks are always welcome hahaha.
-The r0t1v and dikdama accounts are mine, the r0t1v is personal and dikdama is for me to play hahahaha.
-by dikdama GitHub: [r0t1v](https://github.com/r0t1v) - [dikdama](https://github.com/dikdama) - Discord: dikdama #9689
